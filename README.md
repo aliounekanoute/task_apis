@@ -59,6 +59,21 @@ Pour passer à la branche with-auth, utilisez :
 git checkout with-auth
 ```
 
+## Branche ``with-notification`
+
+La branche `with-notification` inclut des fonctionnalités de notification. Elle ajoute les points de terminaison suivants:
+
+- `/notification`
+- `/notification/{id}`
+
+Elle nécessite également une authentification pour les opérations CRUD sur les tâches.
+
+Pour passer à la branche with-auth, utilisez :
+
+```bash
+git checkout with-notification
+```	
+
 # Le modèle de données
 
 1. Les données d'une tache
